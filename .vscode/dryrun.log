@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/yansi/Projects/golang/go-grpc-product-svc'
+protoc pkg/pb/*.proto --go-grpc_out=. --go_out=.
+make: Leaving directory '/home/yansi/Projects/golang/go-grpc-product-svc'
+ 
